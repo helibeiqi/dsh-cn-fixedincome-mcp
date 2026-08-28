@@ -1,0 +1,20 @@
+{
+  "_disclaimer": "本种子为【示例/历史快照】模板，用于演示本地分析引擎，非实时行情。static 条款（转股价/面值/到期日/票息/赎回价）与真实发行条款接近但可能漂移；snapshot（正股/债价）为示例数值。实盘请用你自己的 QMT / 东财 / 集思录 数据刷新后再做筛选。引擎计算逻辑本身不依赖本文件——cb_analytics 接受任意条款实时算。",
+  "as_of": "2026-08-28(示例快照)",
+  "items": [
+    { "code": "113050", "name": "南银转债", "par": 100, "conversion_price": 10.10, "maturity_date": "2027-06-15", "coupon_rates": [0.2,0.4,0.6,0.8,1.5,109.0], "years_to_maturity": 1.0, "maturity_redemption": 109, "snapshot": { "stock_price": 10.35, "bond_price": 112.40 } },
+    { "code": "113052", "name": "兴业转债", "par": 100, "conversion_price": 24.29, "maturity_date": "2027-12-27", "coupon_rates": [0.2,0.4,0.6,0.8,1.5,109.0], "years_to_maturity": 1.4, "maturity_redemption": 109, "snapshot": { "stock_price": 18.50, "bond_price": 108.90 } },
+    { "code": "113011", "name": "光大转债", "par": 100, "conversion_price": 12.00, "maturity_date": "2026-03-18", "coupon_rates": [0.2,0.5,1.0,1.5,1.5,106.0], "years_to_maturity": 0.1, "maturity_redemption": 106, "snapshot": { "stock_price": 3.85, "bond_price": 104.20 } },
+    { "code": "123111", "name": "东财转3", "par": 100, "conversion_price": 28.00, "maturity_date": "2027-04-07", "coupon_rates": [0.2,0.3,0.4,0.8,1.8,112.0], "years_to_maturity": 0.6, "maturity_redemption": 112, "snapshot": { "stock_price": 22.10, "bond_price": 118.60 } },
+    { "code": "113615", "name": "金诚转债", "par": 100, "conversion_price": 12.73, "maturity_date": "2026-12-01", "coupon_rates": [0.3,0.5,1.0,1.5,1.8,113.0], "years_to_maturity": 0.3, "maturity_redemption": 113, "snapshot": { "stock_price": 12.40, "bond_price": 124.30 } },
+    { "code": "128095", "name": "恩捷转债", "par": 100, "conversion_price": 64.92, "maturity_date": "2026-02-11", "coupon_rates": [0.3,0.5,1.0,1.5,1.8,113.0], "years_to_maturity": 0.1, "maturity_redemption": 113, "snapshot": { "stock_price": 58.00, "bond_price": 121.50 } },
+    { "code": "113621", "name": "彤程转债", "par": 100, "conversion_price": 32.96, "maturity_date": "2026-08-02", "coupon_rates": [0.3,0.5,1.0,1.5,2.0,115.0], "years_to_maturity": 0.1, "maturity_redemption": 115, "snapshot": { "stock_price": 33.20, "bond_price": 131.80 } },
+    { "code": "123070", "name": "鹏辉转债", "par": 100, "conversion_price": 20.00, "maturity_date": "2026-10-20", "coupon_rates": [0.3,0.5,1.0,1.5,2.0,115.0], "years_to_maturity": 0.2, "maturity_redemption": 115, "snapshot": { "stock_price": 35.50, "bond_price": 156.20 } },
+    { "code": "113603", "name": "大禹转债", "par": 100, "conversion_price": 4.60, "maturity_date": "2026-07-28", "coupon_rates": [0.3,0.5,1.0,1.5,2.0,115.0], "years_to_maturity": 0.1, "maturity_redemption": 115, "snapshot": { "stock_price": 4.10, "bond_price": 119.70 } },
+    { "code": "113588", "name": "润达转债", "par": 100, "conversion_price": 13.10, "maturity_date": "2026-06-29", "coupon_rates": [0.3,0.5,1.0,1.5,2.0,115.0], "years_to_maturity": 0.1, "maturity_redemption": 115, "snapshot": { "stock_price": 17.20, "bond_price": 142.30 } },
+    { "code": "123047", "name": "久吾转债", "par": 100, "conversion_price": 17.00, "maturity_date": "2026-03-16", "coupon_rates": [0.4,0.6,1.0,1.6,2.0,115.0], "years_to_maturity": 0.1, "maturity_redemption": 115, "snapshot": { "stock_price": 22.80, "bond_price": 149.60 } },
+    { "code": "128106", "name": "华统转债", "par": 100, "conversion_price": 8.82, "maturity_date": "2026-04-16", "coupon_rates": [0.3,0.5,1.0,1.5,2.5,118.0], "years_to_maturity": 0.1, "maturity_redemption": 118, "snapshot": { "stock_price": 11.30, "bond_price": 158.90 } },
+    { "code": "113546", "name": "迪贝转债", "par": 100, "conversion_price": 15.25, "maturity_date": "2025-10-23", "coupon_rates": [0.4,0.6,1.0,1.5,2.5,118.0], "years_to_maturity": 0.0, "maturity_redemption": 118, "snapshot": { "stock_price": 16.80, "bond_price": 132.40 } },
+    { "code": "123092", "name": "天壕转债", "par": 100, "conversion_price": 5.10, "maturity_date": "2027-02-11", "coupon_rates": [0.3,0.5,1.0,1.5,2.0,115.0], "years_to_maturity": 0.5, "maturity_redemption": 115, "snapshot": { "stock_price": 6.95, "bond_price": 169.80 } }
+  ]
+}
