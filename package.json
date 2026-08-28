@@ -1,0 +1,11 @@
+{
+  "name": "dsh-cn-fixedincome-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "可转债 / 债券 本地优先分析引擎（转股价值/溢价率/纯债价值/YTM/久期/双低/下修·强赎·回售触发判定）",
+  "main": "fixedincome-mcp-server.mjs",
+  "repository": { "type": "git", "url": "https://github.com/helibeiqi/dsh-cn-fixedincome-mcp.git" },
+  "keywords": ["dsh-plugin", "deepseek-harness", "convertible-bond", "可转债", "fixed-income", "ytm", "bond"],
+  "license": "MIT",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
