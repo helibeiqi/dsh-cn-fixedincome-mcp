@@ -1,0 +1,13 @@
+- insert:
+    - path: plugins.mcp-servers
+      items:
+        - id: mcp-cn-fixedincome
+          name: cn-fixedincome
+          transport: stdio
+          command: !!js process.env.QUANT_MCP_NODE || process.execPath
+          args:
+            - "C:\\Users\\helib\\dsh-cn-fixedincome-mcp\\fixedincome-mcp-server.mjs"
+          cwd: "C:\\Users\\helib\\dsh-cn-fixedincome-mcp"
+          env:
+            CB_SEED_PATH: "C:\\Users\\helib\\dsh-cn-fixedincome-mcp\\data\\cb_seed.json"
+          enabled: true
